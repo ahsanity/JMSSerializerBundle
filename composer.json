@@ -11,9 +11,15 @@
             "email": "schmittjoh@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ahsanity/serializer.git"
+        }
+    ],
     "require": {
         "php": ">=5.4.0",
-        "jms/serializer": "^1.0.0",
+        "jms/serializer": "dev-ahsanity",
         "phpoption/phpoption": "^1.1.0",
         "symfony/framework-bundle": "~2.3|~3.0"
     },
